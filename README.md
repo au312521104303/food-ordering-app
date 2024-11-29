@@ -1,130 +1,81 @@
-# TOMATO - Food Ordering Website
+# MERN - Food Ordering Web App
+A Web Application for ordering food, built using the MERN Stack.
+Following functions are supported:
+<ul>
+  <li>Login</li>
+  <li>Logout</li>
+  <li>Register</li>
+  <li>View menu based on cuisine</li>
+  <li>Add dish to cart</li>
+  <li>View cart</li>
+  <li>Remove dish from cart</li>
+  <li>Clear cart</li>
+  <li>Place order</li>
+  <li>View order history</li>
+</ul>
 
-This repository hosts the source code for TOMATO, a dynamic food ordering website built with the MERN Stack. It offers a user-friendly platform for seamless online food ordering.
 
-## Demo
+<p align="center">
+  <img src="resources/MongoDBLogo.png" height="80">&nbsp&nbsp
+  <img src="resources/ExpressJSLogo.png" height="80">&nbsp&nbsp
+  <img src="resources/ReactLogo.png" height="80">&nbsp&nbsp
+  <img src="resources/NodeJSLogo.png" height="80">
+</p>
 
-- User Panel: [https://food-delivery-frontend-s2l9.onrender.com/](https://food-delivery-frontend-s2l9.onrender.com/)
-- Admin Panel: [https://food-delivery-admin-wrme.onrender.com/](https://food-delivery-admin-wrme.onrender.com/)
-
-## Features
-
-- User Panel
-- Admin Panel
-- JWT Authentication
-- Password Hashing with Bcrypt
-- Stripe Payment Integration
-- Login/Signup
-- Logout
-- Add to Cart
-- Place Order
-- Order Management
-- Products Management
-- Filter Food Products
-- Login/Signup
-- Authenticated APIs
-- REST APIs
-- Role-Based Identification
-- Beautiful Alerts
-
-## Screenshots
-
-![Hero](https://i.ibb.co/59cwY75/food-hero.png)
-- Hero Section
-
-![Products](https://i.ibb.co/JnNQPyQ/food-products.png)
-- Products Section
-
-![Cart](https://i.ibb.co/t2LrQ8p/food-cart.png)
-- Cart Page
-
-![Login](https://i.ibb.co/s6PgwkZ/food-login.png)
-- Login Popup
-
-## Run Locally
-
-Clone the project
-
-```bash
-    git clone https://github.com/au312521104303/food-ordering-app.git
-```
-Go to the project directory
-
-```bash
-    cd Food-Delivery
-```
-Install dependencies (frontend)
-
-```bash
-    cd frontend
-    npm install
-```
-Install dependencies (admin)
-
-```bash
-    cd admin
-    npm install
-```
-Install dependencies (backend)
-
-```bash
-    cd backend
-    npm install
-```
-Setup Environment Vaiables
-
-```Make .env file in "backend" folder and store environment Variables
-  JWT_SECRET=YOUR_SECRET_TEXT
-  SALT=YOUR_SALT_VALUE
-  MONGO_URL=YOUR_DATABASE_URL
-  STRIPE_SECRET_KEY=YOUR_KEY
- ```
-
-Setup the Frontend and Backend URL
-   - App.jsx in Admin folder
-      const url = YOUR_BACKEND_URL
-     
-  - StoreContext.js in Frontend folder
-      const url = YOUR_BACKEND_URL
-
-  - orderController in Backend folder
-      const frontend_url = YOUR_FRONTEND_URL 
-
-Start the Backend server
-
-```bash
-    nodemon server.js
-```
-
-Start the Frontend server
-
-```bash
-    npm start
-```
-
-Start the Backend server
-
-```bash
-    npm start
-```
-## Tech Stack
-* [React](https://reactjs.org/)
-* [Node.js](https://nodejs.org/en)
-* [Express.js](https://expressjs.com/)
-* [Mongodb](https://www.mongodb.com/)
-* [Stripe](https://stripe.com/)
-* [JWT-Authentication](https://jwt.io/introduction)
-* [Multer](https://www.npmjs.com/package/multer)
-
-## Deployment
-
-The application is deployed on Render.
-
-## Contributing
-
-Contributions are always welcome!
-Just raise an issue, and we will discuss it.
-
-## Feedback
-
-If you have any feedback, please reach out to me [here](https://www.linkedin.com/in/muhammad-shan-full-stack-developer/)
+---
+<table>
+  <tr>
+    <td align="center">1)Home</td>
+  </tr>
+  <tr> 
+    <td><img src="resources/Home.png"></td>
+  </tr>
+  <tr>
+    <td align="center">2)Fast Food</td>
+  </tr>
+  <tr> 
+    <td><img src="resources/FastFood.png"></td>
+  </tr>
+  <tr>
+    <td align="center">3)North Indian</td>
+  </tr>
+  <tr>
+    <td><img src="resources/NorthIndian.png"></td>
+  </tr>
+  <tr>
+    <td align="center">4)South Indian</td>
+  </tr>
+  <tr>
+    <td><img src="resources/SouthIndian.png"></td>
+  </tr>
+  <tr>
+    <td align="center">5)Italian</td>
+  </tr>
+  <tr>
+    <td><img src="resources/ItalianFood.png"></td>
+  </tr>
+  <tr>
+    <td align="center">5)Login/Register</td>
+  </tr>
+  <tr>
+    <td><img src="resources/LoginRegister.png"></td>
+  </tr>
+  <tr>
+    <td align="center">6)Profile (With Previous Orders)</td>
+  </tr>
+  <tr>
+    <td><img src="resources/Profile.png"></td>
+  </tr>
+  <tr>
+    <td align="center">7)Cart</td>
+  </tr>
+  <tr>
+    <td><img src="resources/FoodCart.png"></td>
+  </tr>
+  <tr>
+    <td align="center">8)Order Placed</td>
+  </tr>
+  <tr>
+    <td><img src="resources/OrderPlaced.png"></td>
+  </tr>
+</table>
